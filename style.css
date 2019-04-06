@@ -27,7 +27,6 @@ li {
   line-height: 25px;
 }
 
-
 .bg {
   position: fixed;
   top: 0;
@@ -90,10 +89,17 @@ li {
 }
 .svg {
   position: absolute;
-  transform: rotate(180deg);
   top: 40px;
   right: 0;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+.container__content:hover .svg {
+  fill: #009987;
+  transform: scale(1.2);
+
 }
 .svg:hover {
-  fill: #00ccb4;
+  fill: #00ccb4 !important;
 }
