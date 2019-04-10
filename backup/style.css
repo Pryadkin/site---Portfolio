@@ -12,7 +12,10 @@ h3 {
   margin: 0;
   text-align: center;
 }
-
+hr {
+  margin: 0;
+  border: 1px solid #BBBBBB
+}
 a {
   margin: 0;
   padding: 0;
@@ -50,13 +53,11 @@ li {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-family: 'Montserrat', sans-serif;
-  height: 50px;
-  border-bottom: 1px solid grey;
-  overflow: hidden;
+  height: 500px;
 }
 .time {
   position: absolute;
-  top: calc(50% - 7px);
+  top: calc(50% - 10px);
   left: 20px;
 }
 .container__content {
@@ -110,3 +111,27 @@ li {
 .svg:hover {
   fill: #00ccb4 !important;
 }
+
+
+
+.but {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 200px;
+}
+.toggleMenu ul{
+  list-style-type: none;
+  background-color: blue;
+  color: white;
+}
+
+/* .toggleWrap {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: grey;
+} */
